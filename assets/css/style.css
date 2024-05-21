@@ -333,4 +333,53 @@ footer {
     nav ul.show {
         transform: translateX(0);
     }
+
+    main {
+        padding-top: 20%;
+    }
+
+    .hero {
+        margin-top: -4rem;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero img {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .bio {
+        width: 30.5rem;
+    }
+
+    .more-about {
+        margin-top: 2rem;
+        padding: 1rem 3.5rem;
+    }
+
+    .more-about h2 {
+        text-align: center;
+    }
+
+    .more-about p {
+        text-align: justify;
+    }
+
+    .icon {
+        width: 8.5rem;
+        height: 7.9rem;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .project-container {
+        width: 25.875rem;
+    }
+
+    .contact-form-container {
+        max-width: 30.75rem;
+    }
 }
