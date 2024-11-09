@@ -155,6 +155,7 @@ footer {
     margin-top: 20px;
     background-color: var(--bg-color);
     padding: 1rem 6rem;
+    text-align: center;
 }
 
 .more-about h2{
