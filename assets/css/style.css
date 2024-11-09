@@ -88,7 +88,7 @@ nav ul li {
 }
 
 main {
-    padding-top: 10%;
+    padding-top: 15vh;
 }
 
 footer {
@@ -115,6 +115,7 @@ footer {
     gap: 1.5rem;
     max-width: 68.75rem;
     margin: auto;
+    scroll-margin-top: 12vh;
 }
 
 .hero>img {
@@ -166,24 +167,25 @@ footer {
     padding: 0.4rem;
 }
 
-.skills {
-    max-width: 68.75rem;
+.cards {
+    max-width: 80vw;
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
+    scroll-margin-top: 12vh;
 }
 
-.skill-header {
+.cards-header {
     margin-bottom: 1rem;
 }
 
-.skill-wrapper img {
+.cards-wrapper img {
     padding: 1.25rem;
 }
 
 .icon {
-    width: 11.875rem;
-    height: 11.25rem;
+    width: 200px;
+    height: 200px;
 }
 
 .icon-card {
@@ -194,15 +196,21 @@ footer {
     margin: 10px;
 }
 
+.book {
+    width: 250px;
+    height: 320px;
+}
+
 .projects {
     background-color: var(--bg-color);
     padding: 32px 0;
     margin-top: 2rem;
+    scroll-margin-top: 12vh;
 }
 
 .project-pic {
-    width: 65%;
-    height: 60%;
+    width: 80%;
+    height: 40%;
 }
 
 .projects-container {
@@ -217,8 +225,12 @@ footer {
 }
 
 .project-container {
-    text-align: center;
-    width: 21.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
     padding: 1rem;
 }
 
@@ -234,6 +246,10 @@ footer {
     margin-bottom: var(--bottom-margin);
 }
 
+.project-link {
+    font-weight: bolder;
+}
+
 .project-card {
     background-color: #fff;
     border-radius: 11px;
@@ -244,6 +260,7 @@ footer {
 
 .contact {
     margin-top: 2rem;
+    scroll-margin-top: 12vh;
 }
 
 .contact h2 {
