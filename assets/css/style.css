@@ -119,7 +119,7 @@ footer {
 }
 
 .hero>img {
-    width: 20vw;
+    width: 340px;
     border-radius: 8px;
     border: black solid;
 }
@@ -361,7 +361,7 @@ footer {
         gap: 0;
     }
 
-    .hero img {
+    .hero>img {
         height: 15rem;
         width: 15rem;
     }
@@ -401,19 +401,36 @@ footer {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 540px) {
 
     main {
-        padding-top: 33%;
+        padding-top: 180px;
     }
 
-    .hero img {
-        height: 12rem;
-        width: 11rem;
+    .hero>img{
+        border-radius: 150px;
+        width: 250px;
+        height: 250px;
     }
 
     .bio {
-        width: 18.3rem;
+        margin-top: 20px;
+        width: 280px;
+    }
+
+    .socials {
+        margin-top: 50px;
+    }
+
+    .socials a {
+        display: inline;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .socicon {
+        width: 100px;
+        height: 100px;
     }
 
     .icon {
@@ -422,10 +439,10 @@ footer {
     }
 
     .project-container {
-        width: 17.875rem;
+        width: 80vw;
     }
 
     .contact-form-container {
-        max-width: 17.75rem;
+        max-width: 80vw;
     }
 }
