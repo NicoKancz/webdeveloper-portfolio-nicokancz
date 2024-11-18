@@ -1,2 +1,2 @@
 # Portfolio Website
-My personal Website for my projects as a Full Stack Developer.
+My personal static Website for my projects as a Full Stack Developer.
